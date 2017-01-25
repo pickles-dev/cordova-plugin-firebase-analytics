@@ -3,6 +3,10 @@ logs
 *.log
 npm-debug.log*
 
+#Visual Studio Stuffs
+.vs
+**/*.VC*
+
 # Runtime data
 pids
 *.pid
