@@ -29,7 +29,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <header-file src="src/ios/FirebaseAnalyticsPlugin.h" />
         <source-file src="src/ios/FirebaseAnalyticsPlugin.m" />
 
-        <framework id="Firebase/Analytics" type="podspec" spec="~> 3.11.1"  />
+        <framework src="Firebase/Analytics" type="podspec" spec="~> 3.11.1"  />
     </platform>
 
     <platform name="android">
