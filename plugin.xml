@@ -15,7 +15,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     </js-module>
 
     <engines>
-        <engine name="cordova" version=">=3.5.0"/>
+        <engine name="cordova" version=">=4.3.0"/>
     </engines>    
 
     <platform name="ios">
@@ -29,7 +29,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <header-file src="src/ios/FirebaseAnalyticsPlugin.h" />
         <source-file src="src/ios/FirebaseAnalyticsPlugin.m" />
 
-        <framework id="Firebase/Analytics" type="podspec" />
+        <framework id="Firebase/Analytics" type="podspec" spec="~> 3.11.1"  />
     </platform>
 
     <platform name="android">
