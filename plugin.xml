@@ -32,6 +32,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <source-file src="src/ios/FirebaseAnalyticsPlugin.m" />
         <resource-file src="src/ios/GoogleService-Info.plist" target="Resources/GoogleService-Info.plist" />
 
+        <framework src="AdSupport.framework" />
         <framework src="Firebase/Analytics" type="podspec" spec="~> 3.11.1" />
         <hook src="scripts/after_prepare.js" type="after_prepare" />
     </platform>
