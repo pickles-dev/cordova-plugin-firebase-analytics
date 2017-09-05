@@ -49,7 +49,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             <uses-permission android:name="android.permission.INTERNET" />
         </config-file>
 
-        <framework src="com.google.firebase:firebase-core:+" />
+        <framework src="com.google.firebase:firebase-core:11.0.4" />
 
         <source-file src="src/android/google-services.json" target-dir="." />
         <source-file src="src/android/FirebaseAnalyticsPlugin.java"
